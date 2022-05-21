@@ -15,3 +15,59 @@ header {
   top: 0;
   z-index: 10;
 }
+
+.discount-img {
+  margin:auto;
+  padding-right: 50px;
+  padding-left: 50px;
+  height: 500px;
+  width:1000px;
+}
+
+section {
+  margin: auto;
+  display: flex;
+  margin-bottom: 50px;
+}
+
+.kolom {
+  margin-top:10px;
+  padding-right: 10px;
+}
+
+.kolom .desk {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'comic sans ms';
+  color:black;
+}
+
+h2 {
+  font-family: 'comic sans ms';
+  font-weight: 700px;
+  font-size: 45px;
+  margin-bottom: 10px;
+  color: black;
+  width: 100%;
+  line-height: 50px;
+}
+
+p {
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+.button {
+  background:black;
+  border-radius: 20px;
+  margin-top: 20px;
+  padding: 15px 20px 15px 20px;
+  color: #ffffff;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.button:hover {
+  background: #3f3f3f;
+  text-decoration: none;
+}
