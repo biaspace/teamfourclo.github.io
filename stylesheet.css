@@ -7,6 +7,16 @@ body {
   font-family: "Lucida Grande";
 }
 
+
+.container {
+  width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+
+}
+
+
+
 header {
   background-color: grey;
   height: 65px;
@@ -16,6 +26,11 @@ header {
   z-index: 10;
 }
 
+
+
+
+
+/*kak Aldi*/
 .discount-img {
   margin:auto;
   padding-right: 50px;
@@ -70,4 +85,118 @@ p {
 .button:hover {
   background: #3f3f3f;
   text-decoration: none;
+}
+/*kak Aldi*/
+
+
+/*kak Bias*/
+
+.article-wrapper {
+  height: 500px;
+  background-color: #F7F7F7;
+  text-align: center;
+  padding-bottom: 80px;
+}
+
+
+.heading {
+  color: #5f5d60;
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+
+
+.heading h2 {
+  font-weight: normal;
+  font-size: 32px;
+
+}
+
+.article {
+  float: left;
+  width: 33.33333333333333%;
+  padding: 20px;
+}
+
+
+.article-icon {
+  position: relative;
+  height: 250px;
+  border: 0px solid #3F3F44;
+  border-radius: 10px; 
+  background-color: #929AAB;
+  transition: all 0.5s;
+}
+
+.article-icon:hover {
+  box-shadow: 0px 10px 10px #888888;
+}
+
+
+img {
+  width: 100%;
+  height: 150px;
+  border-radius: 10px;
+}
+
+.imgArt1 {
+  background-image: url('image/artimg1.jpg');
+  background-size: cover;
+
+  /*Photo by Pixabay: https://www.pexels.com/photo/chucks-classic-converse-design-267202/*/
+}
+
+.imgArt2 {
+  background-image: url('image/artimg2.jpg');
+  background-size: cover;
+
+  /*Photo by Dương Nhân: https://www.pexels.com/photo/people-wearing-sneakers-1021145/*/
+}
+
+.imgArt3 {
+  background-image: url('image/artimg3.jpg');
+  background-size: cover;
+
+/*Photo by Lum3n from Pexels: https://www.pexels.com/photo/low-angle-view-of-shoes-322207/*/
+}
+
+
+.article-icon h3 {
+  position: absolute;
+  top: 120px;
+  width: 100%;
+  background-color: #222831;
+  color: whitesmoke;
+}
+
+
+.article-icon p {
+  position: absolute;
+  top: 130px;
+  width: 75%;
+  color: black;
+  text-align: justify;
+
+  animation-name: textnima;
+  animation-duration: 5s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes textnima {
+  from { left: 0px; }
+  to { left: 30px; }
+}
+
+
+/*kak Bias*/
+
+
+
+
+
+/*kak Richardo*/
+
+footer{
+  padding-top: 30px;
+  background-color: black;
 }
