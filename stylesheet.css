@@ -16,38 +16,220 @@ body {
 }
 
 
+/*kak Bias*/
+
+.container-header {
+  width: 1170px;
+
+}
 
 header {
-  background-color: grey;
-  height: 65px;
-  width: 100%
-  position: fixed;
+  height: 60px;
+  width: 100%;
+  background: rgb(244,244,244);
+  position :fixed;
   top: 0;
   z-index: 10;
 }
+
+.logo {
+  width: 75px;
+  float: left;
+  margin: 5px 5px 0 30px;
+}
+
+.logo-img {
+  width: 75px;
+}
+
+.header-left {
+  float: left;
+}
+
+.header-list {
+  line-height: 60px;
+  padding: 0 25px;
+  color: white;
+  display: block;
+  float: left;
+  transition: all 0.5s;
+}
+
+.header-list a {
+  margin-left: 10px;
+}
+
+.header-list a:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.header-right {
+  float: right;
+  margin-right: -25px;
+}
+
+.search-box {
+  background-color: black;
+  border-radius: 5px;
+}
+
+.search-box input[type=text] {
+  float: right;
+  padding: 6px;
+  border: none;
+  margin-top: 8px;
+  margin-right: 16px;
+  font-size: 17px;
+}
+
+.menu-icon {
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+  display: none;
+  
+}
+/*kak Bias*/
+
+
+
+/*kak Hafiz*/
+
+
+.product-wrapper {
+  height: 500px;
+  background-color: #F7F7F7;
+  text-align: center;
+  padding-bottom: 80px;
+}
+
+
+.heading-product {
+  height: 150px;
+  color: #5f5d60;
+  padding-top: 15px;
+  
+}
+
+
+.heading-product h2 {
+  font-weight: normal;
+  font-size: 32px;
+  height: 50px;
+}
+
+.heading-product p {
+  padding-top: 5px;
+}
+
+
+
+.contents-item {
+  float: left;
+  width: 25%;
+  padding: 20px;
+}
+
+
+.product-icon {
+  position: relative;
+  height: 250px;
+  border: 0px solid #3F3F44;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  background-color: #929AAB;
+  transition: all 0.5s;
+}
+
+.product-icon:hover {
+  box-shadow: 0px 10px 10px #888888;
+}
+
+
+.product-icon img {
+  width: 100%;
+  height: 250px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.imgPro1 {
+  background-image: url('image/imgPro1.jpg');
+  background-size: cover;
+
+}
+
+.imgPro2 {
+  background-image: url('image/imgPro2.jpg');
+  background-size: cover;
+}
+
+.imgPro3 {
+  background-image: url('image/imgPro3.jpg');
+  background-size: cover;
+}
+
+.imgPro4 {
+  background-image: url('image/imgPro4.jpg');
+  background-size: cover;
+}
+
+
+.product-icon h3 {
+  position: absolute;
+  top: 215px;
+  width: 100%;
+  background-color: #222831;
+  color: whitesmoke;
+}
+
+  
+/*kak Hafiz*/
 
 
 
 
 
 /*kak Aldi*/
-.discount-img {
-  margin:auto;
-  padding-right: 50px;
-  padding-left: 50px;
+
+.discount-wrapper {
+  height: 600px;
+  background-color: #fff;
+  padding-bottom: 80px;
+  padding-top: 48px;
+}
+
+
+.offer {
   height: 500px;
-  width:1000px;
+  border-radius: 50px;
+  border: 1px solid black;
+  background-color: #DFBAB1;
+}
+
+
+.offer img {
+  height: 475px;
+  width: 1000px;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+}
+
+.discount-img {
+  background-image: url('image/imgdis-cut.jpg');
+  background-size: cover;
 }
 
 section {
   margin: auto;
   display: flex;
-  margin-bottom: 50px;
 }
 
 .kolom {
   margin-top:10px;
   padding-right: 10px;
+  padding-left: 30px;
 }
 
 .kolom .desk {
@@ -57,7 +239,7 @@ section {
   color:black;
 }
 
-h2 {
+.kolom h2 {
   font-family: 'comic sans ms';
   font-weight: 700px;
   font-size: 45px;
@@ -67,15 +249,15 @@ h2 {
   line-height: 50px;
 }
 
-p {
-  padding-bottom: 20px;
+.kolom p {
+  padding-bottom: 50px;
   padding-top: 20px;
 }
 
 .button {
   background:black;
   border-radius: 20px;
-  margin-top: 20px;
+  margin-top: 50px;
   padding: 15px 20px 15px 20px;
   color: #ffffff;
   cursor: pointer;
@@ -86,7 +268,14 @@ p {
   background: #3f3f3f;
   text-decoration: none;
 }
+
+
+
 /*kak Aldi*/
+
+
+
+
 
 
 /*kak Bias*/
@@ -99,14 +288,14 @@ p {
 }
 
 
-.heading {
+.heading-article {
   color: #5f5d60;
   padding-top: 30px;
   padding-bottom: 10px;
 }
 
 
-.heading h2 {
+.heading-article h2 {
   font-weight: normal;
   font-size: 32px;
 
@@ -133,7 +322,7 @@ p {
 }
 
 
-img {
+.article-icon img {
   width: 100%;
   height: 150px;
   border-radius: 10px;
@@ -172,11 +361,16 @@ img {
 
 .article-icon p {
   position: absolute;
-  top: 130px;
-  width: 75%;
+  top: 150px;
+  width: 80%;
   color: black;
   text-align: justify;
+  padding-left: 25px;
 
+  
+}
+
+.article-icon p:hover {
   animation-name: textnima;
   animation-duration: 5s;
   animation-fill-mode: forwards;
@@ -194,9 +388,72 @@ img {
 
 
 
-/*kak Richardo*/
+/*kak Aldi*/
 
-footer{
-  padding-top: 30px;
-  background-color: black;
+footer {
+    width: 100% ;
+    background-color: black;
+    color: #fff;
+    height: 500px;
+    padding: 40px;
 }
+
+.footer-wrapper {
+  float: left;
+}
+
+.footer-left {
+  float: left;
+}
+
+
+footer img {
+    width: 100px;
+    float: left;
+  }
+  
+  .about-us p {
+    color:#fff;
+    font-size: 15px;
+    text-align: center;
+  }
+  
+  footer {
+    padding-top: 30px;
+  }
+
+  .footer-list {
+      float: right;
+  }
+
+  .footer-list li {
+      padding:5px;
+      list-style: none;
+  }
+
+  /*kak Aldi*/
+
+
+  /*kak Bias*/
+
+
+.contact-form {
+  padding-top: 100px;
+}
+
+.contact-form input, textarea{
+  width: 400px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  padding: 20px;
+  font-size: 18px;
+  border: 1px solid #dee7ec;
+}
+
+.contact-submit{
+  background-color: #dee7ec;
+  color: #889eab;
+}
+
+
+  /*kak Bias*/
